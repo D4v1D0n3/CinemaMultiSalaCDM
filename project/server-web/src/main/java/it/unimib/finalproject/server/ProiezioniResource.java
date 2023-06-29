@@ -13,6 +13,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 import java.io.*;
 import java.net.*;
 
+//connessione con il database 
 @Path("proiezioni")
 public class ProiezioniResource {
 
