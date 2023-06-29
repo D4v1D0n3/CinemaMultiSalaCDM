@@ -20,9 +20,19 @@ public class Proiezione implements Serializable{
         }
     }
 
-    public void setId(){}
+    public void setId(int id){this.id=id;}
 
-    public void setData(){}
+    public void setData(String data){this.data=data;}
 
-    public void setOra(){}
+    public void setOra(String ora){this.ora=ora;}
+
+    public int getId(){return this.id;}
+
+    public String getData(){return this.data;}
+
+    public String getOra(){return this.ora;}
+
+    public void prenota(String[] posti){
+
+    }
 }
