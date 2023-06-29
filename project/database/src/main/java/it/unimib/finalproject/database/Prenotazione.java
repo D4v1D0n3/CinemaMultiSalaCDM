@@ -4,6 +4,18 @@ import java.util.List;
 
 public class Prenotazione {
     private int id;
-    private List<String> posti;
     private Proiezione proiezione;
+
+    public Prenotazione(){
+
+    }
+    
+    public void modificaPrenotazione(){
+
+    }
+
+    public void eliminaPrenotazione(){
+
+    }
+
 }

@@ -8,10 +8,12 @@ import java.io.*;
  * Classe principale in cui parte il database.
  */
 public class Main {
+
+    Hashtable prenotazioni= new Hashtable();
+    
     /**
      * Porta di ascolto.
-     */
-    Hashtable prenotazione= new Hashtable();
+     */    
     public static final int PORT = 3030;
 
     /**
