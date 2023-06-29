@@ -1,6 +1,8 @@
 package it.unimib.finalproject.database;
 
-public class Film {
+import java.io.Serializable;
+
+public class Film implements Serializable{
     private String descrizione;
     private String titolo;
 

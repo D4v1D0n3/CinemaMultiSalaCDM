@@ -1,8 +1,9 @@
 package it.unimib.finalproject.database;
 
+import java.io.Serializable;
 import java.util.Hashtable;
 
-public class Proiezione {
+public class Proiezione implements Serializable{
     private int id;
     private String[][] postiDisponibili;
     private String data;
