@@ -32,7 +32,16 @@ public class Proiezione implements Serializable{
 
     public String getOra(){return this.ora;}
 
-    public void prenota(String[] posti){
+    public String prenota(String[] posti){
+        String a="";
+        for(int i=0;i<posti.length;i++){
+            a = postiDisponibili[(int)posti[i].charAt(0)-"A"][(int)posti[i].charAt(1)];
+            if(a!=null)
+            a=null;
+            else
+            return "posto "+posti[i]+" non disponibile";
+        }
 
+        return "ok";
     }
 }
